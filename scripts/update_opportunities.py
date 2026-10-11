@@ -109,7 +109,10 @@ def main():
         if re.search(r"scotland|scottish|dundee|montrose|glasgow|edinburgh|aberdeen|inverness|fife", str(old.get("title",""))+" "+str(old.get("buyer","")), re.I): continue
         if old.get("category") == "tender":
             end = iso(old.get("deadline"))
-            if not end or end < TODAY - dt.timedelta(days=90): continue
+            if end and end < TODAY - dt.timedelta(days=90): continue
+            if not end:
+                published = iso(old.get("published"))
+                if not published or published < TODAY - dt.timedelta(days=90): continue
         elif old.get("category") == "award":
             published = iso(old.get("published"))
             if not published or (TODAY-published).days>90: continue
