@@ -53,7 +53,7 @@ def extract(release):
     tags = release.get("tag") or []
     is_award = any("award" in str(tag).lower() for tag in tags)
     end = iso((tender.get("tenderPeriod") or {}).get("endDate"))
-    if not is_award and (not end or end <= TODAY): return None
+    if not is_award and (not end or end < TODAY - dt.timedelta(days=90)): return None
     if is_award:
         # Awards can be used as potential subcontracting leads, not advertised open tenders.
         if (TODAY - (iso(release.get("date")) or TODAY)).days > 90: return None
@@ -70,7 +70,7 @@ def extract(release):
 
 def main():
     previous = json.loads(OUT.read_text()) if OUT.exists() else []
-    start = (TODAY - dt.timedelta(days=60)).strftime("%Y-%m-%dT%H:%M:%S")
+    start = (TODAY - dt.timedelta(days=180)).strftime("%Y-%m-%dT%H:%M:%S")
     found = {}
     errors = []
     for stage in ("tender","award"):
@@ -99,7 +99,7 @@ def main():
         if re.search(r"scotland|scottish|dundee|montrose|glasgow|edinburgh|aberdeen|inverness|fife", str(old.get("title",""))+" "+str(old.get("buyer","")), re.I): continue
         if old.get("category") == "tender":
             end = iso(old.get("deadline"))
-            if not end or end <= TODAY: continue
+            if not end or end < TODAY - dt.timedelta(days=90): continue
         elif old.get("category") == "award":
             published = iso(old.get("published"))
             if not published or (TODAY-published).days>90: continue
@@ -109,7 +109,7 @@ def main():
     if not rows and previous:
         raise RuntimeError("Collector returned no matching opportunities; preserving existing file")
     OUT.write_text(json.dumps(rows,indent=2,ensure_ascii=False)+"\n")
-    print(f"Saved {len(rows)} opportunities ({sum(r['category']=='tender' for r in rows)} open tenders)")
+    print(f"Saved {len(rows)} opportunities ({sum(r['category']=='tender' and iso(r.get('deadline')) >= TODAY for r in rows)} open tenders, {sum(r['category']=='tender' and iso(r.get('deadline')) < TODAY for r in rows)} recently closed tenders)")
 
 if __name__ == "__main__":
     main()
