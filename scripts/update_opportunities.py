@@ -45,7 +45,9 @@ def extract(release):
     parties = release.get("parties") or []
     locations = as_text(tender.get("deliveryAddresses") or tender.get("deliveryAddress") or tender.get("items") or "")
     area_text = " ".join([title,desc,buyer,locations])
-    if not KEYWORDS.search(title+" "+desc): return None
+    # All Newry, Mourne and Down District Council notices qualify, whatever the trade.
+    nmd_buyer = bool(re.search(r"newry\s*[,/&-]?\s*mourne\s*(?:and|&)?\s*down|newry\s+mourne\s+and\s+down", buyer, re.I))
+    if not nmd_buyer and not KEYWORDS.search(title+" "+desc): return None
     # Do not infer NI from generic wording such as "down" or "Newcastle" alone.
     ni_specific = re.search(r"northern ireland|belfast|county down|downpatrick|newry|mourne|castlewellan|kilkeel|warrenpoint|lisburn|county antrim|county armagh|derry and strabane|newtownabbey|ards and north down|fermanagh|omagh|mid ulster|causeway coast|banbridge|craigavon|ballyclare|ballymena|carrickfergus|enniskillen|dungannon", area_text, re.I)
     scotland = re.search(r"scotland|scottish|dundee|montrose|glasgow|edinburgh|aberdeen|inverness|perth and kinross|fife|stirling", " ".join([title,buyer,locations]), re.I)
