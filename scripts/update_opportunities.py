@@ -85,7 +85,7 @@ def main():
     errors = []
     for stage in ("tender","award"):
         cursor = None
-        for _ in range(12):
+        for _ in range(35):
             params = {"updatedFrom":start,"stages":stage,"limit":"100"}
             if cursor: params["cursor"] = cursor
             url = API+"?"+urllib.parse.urlencode(params)
