@@ -6,6 +6,7 @@ import pathlib
 import re
 import urllib.parse
 import urllib.request
+import urllib.error
 
 OUT = pathlib.Path("data/opportunities.json")
 API = "https://www.find-tender.service.gov.uk/api/1.0/ocdsReleasePackages"
@@ -15,8 +16,11 @@ NI = re.compile(r"northern ireland|belfast|antrim|armagh|downpatrick|newry|mourn
 
 def get(url):
     req = urllib.request.Request(url, headers={"User-Agent":"GroundScout/1.0 (public procurement opportunity monitor)", "Accept":"application/json"})
-    with urllib.request.urlopen(req, timeout=40) as response:
-        return json.load(response)
+    try:
+        with urllib.request.urlopen(req, timeout=40) as response:
+            return json.load(response)
+    except urllib.error.HTTPError as e:
+        raise RuntimeError("HTTP {}: {}".format(e.code, e.read(1000).decode("utf-8","replace"))) from e
 
 def iso(value):
     if not value:
@@ -90,7 +94,8 @@ def main():
             else: cursor=None
             if not cursor: break
     if errors and not found:
-        raise RuntimeError("Feed unavailable; preserving existing data: "+"; ".join(errors))
+        print("WARNING: Feed unavailable; preserving existing data: "+"; ".join(errors))
+        return
     for old in previous:
         if not isinstance(old,dict) or not old.get("id"): continue
         if old.get("id") in found: continue
