@@ -87,11 +87,8 @@ def main():
             for release in payload.get("releases",[]):
                 item = extract(release)
                 if item: found[item["id"]] = item
-            nxt = (payload.get("links") or {}).get("next") or payload.get("next") or payload.get("nextCursor")
-            if isinstance(nxt,str) and nxt.startswith("http"):
-                cursor = urllib.parse.parse_qs(urllib.parse.urlparse(nxt).query).get("cursor",[None])[0]
-            elif isinstance(nxt,str): cursor=nxt
-            else: cursor=None
+            # Find a Tender requires the exact nextCursor, not a next link or altered cursor.
+            cursor = payload.get("nextCursor")
             if not cursor: break
     if errors and not found:
         print("WARNING: Feed unavailable; preserving existing data: "+"; ".join(errors))
