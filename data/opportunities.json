@@ -115,5 +115,113 @@
     "url": "https://etendersni.gov.uk/epps/home.do",
     "source": "eTendersNI",
     "status": "Deadline unverified"
+  },
+  {
+    "id": "etni-nihe-response-20260911",
+    "title": "RESPONSE MAINTENANCE AND IMPROVEMENT WORKS",
+    "area": "Northern Ireland-wide",
+    "buyer": "Northern Ireland Housing Executive",
+    "published": "2026-09-11T12:00:00Z",
+    "category": "tender",
+    "deadline": null,
+    "description": "Published procurement notice. Deadline not independently verified; check portal before bidding.",
+    "url": "https://etendersni.gov.uk/epps/notices/viewPublishedNotices.do?authorityId=3105&orgGroupId=3138",
+    "source": "eTendersNI"
+  },
+  {
+    "id": "etni-nihe-adaptations-20260911",
+    "title": "P1366 - Major Adaptations for persons with a disability (MAPD) Construction Works - South Region",
+    "area": "Northern Ireland-wide",
+    "buyer": "Northern Ireland Housing Executive",
+    "published": "2026-09-11T12:00:00Z",
+    "category": "tender",
+    "deadline": null,
+    "description": "Published procurement notice. Deadline not independently verified; check portal before bidding.",
+    "url": "https://etendersni.gov.uk/epps/notices/viewPublishedNotices.do?authorityId=3105&orgGroupId=3138",
+    "source": "eTendersNI"
+  },
+  {
+    "id": "etni-niwater-hydro-20261002",
+    "title": "T164 – Hydro Turbine Maintenance",
+    "area": "Northern Ireland-wide",
+    "buyer": "Northern Ireland Water",
+    "published": "2026-10-02T12:00:00Z",
+    "category": "tender",
+    "deadline": null,
+    "description": "Published procurement notice. Deadline not independently verified; check portal before bidding.",
+    "url": "https://etendersni.gov.uk/epps/notices/viewPublishedNotices.do?authorityId=2992&orgGroupId=3013",
+    "source": "eTendersNI"
+  },
+  {
+    "id": "etni-niwater-sludge-20260827",
+    "title": "F006 – Supply, Maintenance and Repair of Sludge Management Equipment",
+    "area": "Northern Ireland-wide",
+    "buyer": "Northern Ireland Water",
+    "published": "2026-08-27T12:00:00Z",
+    "category": "tender",
+    "deadline": null,
+    "description": "Published procurement notice. Deadline not independently verified; check portal before bidding.",
+    "url": "https://etendersni.gov.uk/epps/notices/viewPublishedNotices.do?authorityId=2992&orgGroupId=3013",
+    "source": "eTendersNI"
+  },
+  {
+    "id": "etni-housing-responsive-20261001",
+    "title": "Measured Term Contract for Responsive Maintenance, Minor Adaptations, Void Property Works and Emergency Works",
+    "area": "Northern Ireland-wide",
+    "buyer": "Housing procurement authority (verify on source)",
+    "published": "2026-10-01T12:00:00Z",
+    "category": "tender",
+    "deadline": null,
+    "description": "Published procurement notice. Deadline not independently verified; check portal before bidding.",
+    "url": "https://etendersni.gov.uk/epps/notices/viewPublishedNotices.do?authorityId=16894&orgGroupId=34148",
+    "source": "eTendersNI"
+  },
+  {
+    "id": "etni-abcc-plant-award-20261007",
+    "title": "Provision of Event Plant, Equipment and Crew Hire Services",
+    "area": "Armagh, Banbridge and Craigavon",
+    "buyer": "Armagh City, Banbridge and Craigavon Borough Council",
+    "published": "2026-10-07T12:00:00Z",
+    "category": "award",
+    "deadline": null,
+    "description": "Published award/details notice; potential contractor lead, not an invitation to tender. Check original notice.",
+    "url": "https://etendersni.gov.uk/epps/notices/viewPublishedNotices.do?authorityId=3910&orgGroupId=4440",
+    "source": "eTendersNI"
+  },
+  {
+    "id": "etni-abcc-river-20260925",
+    "title": "Phase 1 River Restoration Works on Ballymartrim River supported by PEACEPLUS CALM",
+    "area": "Armagh, Banbridge and Craigavon",
+    "buyer": "Armagh City, Banbridge and Craigavon Borough Council",
+    "published": "2026-09-25T12:00:00Z",
+    "category": "award",
+    "deadline": null,
+    "description": "Published award/details notice; potential contractor lead, not an invitation to tender. Check original notice.",
+    "url": "https://etendersni.gov.uk/epps/notices/viewPublishedNotices.do?authorityId=3910&orgGroupId=4440",
+    "source": "eTendersNI"
+  },
+  {
+    "id": "etni-abcc-lough-20260925",
+    "title": "Phase 1 River Restoration Works on Lough More Catchment supported by PEACEPLUS CALM",
+    "area": "Armagh, Banbridge and Craigavon",
+    "buyer": "Armagh City, Banbridge and Craigavon Borough Council",
+    "published": "2026-09-25T12:00:00Z",
+    "category": "award",
+    "deadline": null,
+    "description": "Published award/details notice; potential contractor lead, not an invitation to tender. Check original notice.",
+    "url": "https://etendersni.gov.uk/epps/notices/viewPublishedNotices.do?authorityId=3910&orgGroupId=4440",
+    "source": "eTendersNI"
+  },
+  {
+    "id": "etni-nihe-firedoors-20261007",
+    "title": "Supply and Delivery of Fire Doorsets",
+    "area": "Northern Ireland-wide",
+    "buyer": "Northern Ireland Housing Executive",
+    "published": "2026-10-07T12:00:00Z",
+    "category": "tender",
+    "deadline": null,
+    "description": "Published procurement notice. Deadline not independently verified; check portal before bidding.",
+    "url": "https://etendersni.gov.uk/epps/notices/viewPublishedNotices.do?authorityId=3105&orgGroupId=3138",
+    "source": "eTendersNI"
   }
 ]
