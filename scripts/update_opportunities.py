@@ -41,7 +41,11 @@ def extract(release):
     parties = release.get("parties") or []
     locations = as_text(tender.get("deliveryAddresses") or tender.get("deliveryAddress") or tender.get("items") or "")
     area_text = " ".join([title,desc,buyer,locations])
-    if not NI.search(area_text) or not KEYWORDS.search(title+" "+desc): return None
+    if not KEYWORDS.search(title+" "+desc): return None
+    # Do not infer NI from generic wording such as "down" or "Newcastle" alone.
+    ni_specific = re.search(r"northern ireland|belfast|county down|downpatrick|newry|mourne|castlewellan|kilkeel|warrenpoint|lisburn|county antrim|county armagh|derry and strabane|newtownabbey|ards and north down|fermanagh|omagh|mid ulster|causeway coast|banbridge|craigavon|ballyclare|ballymena|carrickfergus|enniskillen|dungannon", area_text, re.I)
+    scotland = re.search(r"scotland|scottish|dundee|montrose|glasgow|edinburgh|aberdeen|inverness|perth and kinross|fife|stirling", " ".join([title,buyer,locations]), re.I)
+    if not ni_specific or scotland: return None
     tags = release.get("tag") or []
     is_award = any("award" in str(tag).lower() for tag in tags)
     end = iso((tender.get("tenderPeriod") or {}).get("endDate"))
@@ -90,6 +94,7 @@ def main():
     for old in previous:
         if not isinstance(old,dict) or not old.get("id"): continue
         if old.get("id") in found: continue
+        if re.search(r"scotland|scottish|dundee|montrose|glasgow|edinburgh|aberdeen|inverness|fife", str(old.get("title",""))+" "+str(old.get("buyer","")), re.I): continue
         if old.get("category") == "tender":
             end = iso(old.get("deadline"))
             if not end or end <= TODAY: continue
