@@ -11,7 +11,7 @@ OUT = pathlib.Path("data/opportunities.json")
 API = "https://www.find-tender.service.gov.uk/api/1.1/ocdsReleasePackages"
 TODAY = dt.datetime.now(dt.timezone.utc)
 KEYWORDS = re.compile(r"groundwork|civil engineering|excavat|drainage|ducting|kerbing|fenc|tree surg|arboricultur|vegetation|grass cut|landscap|forestry|woodland|telecom|fibre|fiber|cabling|haulage|skip|waste|demolition|site clearance|highway|road maintenance|construction|floodlight|plant hire|earthwork|reinstatement|scrub|mulch|chipp", re.I)
-NI = re.compile(r"northern ireland|belfast|antrim|armagh|downpatrick|newry|mourne|down|lisburn|derry|strabane|mid ulster|fermanagh|omagh|causeway|coleraine|newtownabbey|ards|banbridge|craigavon|lurgan|bangor|carrickfergus|ballymena|enniskillen|magherafelt|larne|newcastle|kilkeel|warrenpoint|castlewellan|dungannon", re.I)
+NI = re.compile(r"northern ireland|belfast|antrim|armagh|downpatrick|newry|mourne|county down|lisburn|derry|strabane|mid ulster|fermanagh|omagh|causeway|coleraine|newtownabbey|ards|banbridge|craigavon|lurgan|bangor|carrickfergus|ballymena|enniskillen|magherafelt|larne|newcastle|kilkeel|warrenpoint|castlewellan|dungannon", re.I)
 
 def get(url):
     req = urllib.request.Request(url, headers={"User-Agent":"GroundScout/1.0 (public procurement opportunity monitor)", "Accept":"application/json"})
@@ -50,7 +50,7 @@ def extract(release):
         # Awards can be used as potential subcontracting leads, not advertised open tenders.
         if (TODAY - (iso(release.get("date")) or TODAY)).days > 90: return None
     rid = str(release.get("id") or "")
-    match = re.search(r"(\\d{6}-20\\d{2})", rid)
+    match = re.search(r"(\d{6}-20\d{2})", rid)
     notice = match.group(1) if match else ""
     if not notice: return None
     area = "Northern Ireland-wide"
@@ -101,7 +101,7 @@ def main():
     rows = sorted(found.values(),key=lambda r:(r.get("category")!="tender",r.get("deadline") or "9999",r.get("title") or ""))
     if not rows and previous:
         raise RuntimeError("Collector returned no matching opportunities; preserving existing file")
-    OUT.write_text(json.dumps(rows,indent=2,ensure_ascii=False)+"\\n")
+    OUT.write_text(json.dumps(rows,indent=2,ensure_ascii=False)+"\n")
     print(f"Saved {len(rows)} opportunities ({sum(r['category']=='tender' for r in rows)} open tenders)")
 
 if __name__ == "__main__":
