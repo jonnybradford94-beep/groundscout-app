@@ -61,11 +61,21 @@ def extract(release):
     match = re.search(r"(\d{6}-20\d{2})", rid)
     notice = match.group(1) if match else ""
     if not notice: return None
-    area = "Northern Ireland-wide"
-    if re.search(r"newry|mourne|downpatrick|castlewellan|newcastle|kilkeel|warrenpoint|county down", area_text, re.I): area = "County Down"
-    elif re.search(r"belfast", area_text, re.I): area = "Belfast"
-    elif re.search(r"armagh|craigavon|lurgan|banbridge", area_text, re.I): area = "County Armagh"
-    elif re.search(r"antrim|ballymena|larne|newtownabbey|ballyclare", area_text, re.I): area = "County Antrim"
+    # Use the buyer's council identity for council pins, never a passing mention in the description.
+    council_names = {
+        "Newry, Mourne and Down": r"newry.{0,20}mourne.{0,20}down",
+        "Ards and North Down": r"ards.{0,15}north down",
+        "Lisburn and Castlereagh": r"lisburn.{0,15}castlereagh",
+        "Armagh, Banbridge and Craigavon": r"armagh.{0,20}banbridge.{0,20}craigavon",
+        "Antrim and Newtownabbey": r"antrim.{0,15}newtownabbey",
+        "Mid and East Antrim": r"mid.{0,10}east antrim",
+        "Causeway Coast and Glens": r"causeway coast.{0,10}glens",
+        "Derry City and Strabane": r"derry.{0,20}strabane",
+        "Fermanagh and Omagh": r"fermanagh.{0,15}omagh",
+        "Mid Ulster": r"mid ulster",
+        "Belfast": r"belfast city council",
+    }
+    area = next((name for name, pattern in council_names.items() if re.search(pattern, buyer, re.I)), "Northern Ireland-wide")
     return dict(id=notice,title=title,description=as_text(desc)[:1800],category="award" if is_award else "tender",area=area,buyer=buyer,published=release.get("date"),deadline=end.isoformat() if end else None,url="https://www.find-tender.service.gov.uk/Notice/"+notice,source="Find a Tender",ocid=release.get("ocid",""))
 
 def main():
