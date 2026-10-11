@@ -8,7 +8,7 @@ import urllib.parse
 import urllib.request
 
 OUT = pathlib.Path("data/opportunities.json")
-API = "https://www.find-tender.service.gov.uk/api/1.1/ocdsReleasePackages"
+API = "https://www.find-tender.service.gov.uk/api/1.0/ocdsReleasePackages"
 TODAY = dt.datetime.now(dt.timezone.utc)
 KEYWORDS = re.compile(r"groundwork|civil engineering|excavat|drainage|ducting|kerbing|fenc|tree surg|arboricultur|vegetation|grass cut|landscap|forestry|woodland|telecom|fibre|fiber|cabling|haulage|skip|waste|demolition|site clearance|highway|road maintenance|construction|floodlight|plant hire|earthwork|reinstatement|scrub|mulch|chipp", re.I)
 NI = re.compile(r"northern ireland|belfast|antrim|armagh|downpatrick|newry|mourne|county down|lisburn|derry|strabane|mid ulster|fermanagh|omagh|causeway|coleraine|newtownabbey|ards|banbridge|craigavon|lurgan|bangor|carrickfergus|ballymena|enniskillen|magherafelt|larne|newcastle|kilkeel|warrenpoint|castlewellan|dungannon", re.I)
@@ -79,7 +79,7 @@ def main():
             for release in payload.get("releases",[]):
                 item = extract(release)
                 if item: found[item["id"]] = item
-            nxt = payload.get("next") or payload.get("nextCursor")
+            nxt = (payload.get("links") or {}).get("next") or payload.get("next") or payload.get("nextCursor")
             if isinstance(nxt,str) and nxt.startswith("http"):
                 cursor = urllib.parse.parse_qs(urllib.parse.urlparse(nxt).query).get("cursor",[None])[0]
             elif isinstance(nxt,str): cursor=nxt
