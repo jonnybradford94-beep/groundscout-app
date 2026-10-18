@@ -102,9 +102,8 @@ def main():
             # Find a Tender requires the exact nextCursor, not a next link or altered cursor.
             cursor = payload.get("nextCursor")
             if not cursor: break
-    if errors and not found:
-        print("WARNING: Feed unavailable; preserving existing data: "+"; ".join(errors))
-        return
+    if errors:
+        raise RuntimeError("Tender feed collection incomplete; existing data preserved: "+"; ".join(errors))
     for old in previous:
         if not isinstance(old,dict) or not old.get("id"): continue
         if old.get("id") in found: continue
@@ -124,7 +123,7 @@ def main():
     if not rows and previous:
         raise RuntimeError("Collector returned no matching opportunities; preserving existing file")
     OUT.write_text(json.dumps(rows,indent=2,ensure_ascii=False)+"\n")
-    print(f"Saved {len(rows)} opportunities ({sum(r['category']=='tender' and iso(r.get('deadline')) >= TODAY for r in rows)} open tenders, {sum(r['category']=='tender' and iso(r.get('deadline')) < TODAY for r in rows)} recently closed tenders)")
+    print(f"Saved {len(rows)} opportunities ({sum(r['category']=='tender' and iso(r.get('deadline')) is not None and iso(r.get('deadline')) >= TODAY for r in rows)} open tenders, {sum(r['category']=='tender' and iso(r.get('deadline')) is not None and iso(r.get('deadline')) < TODAY for r in rows)} recently closed tenders)")
 
 if __name__ == "__main__":
     main()
