@@ -14,6 +14,54 @@
     "ocid": "ocds-h6vhtk-0783b4"
   },
   {
+    "id": "etni-auto-18995e6d8129c6e5623d",
+    "title": "06 Oct National Trust-NI- Skernaghan Point – Woodland Creation",
+    "description": "Published procurement notice. Closing date not independently verified; check the source before bidding.",
+    "category": "tender",
+    "area": "Northern Ireland-wide",
+    "buyer": "",
+    "published": "2026-10-06T00:00:00+00:00",
+    "deadline": null,
+    "url": "https://etendersni.gov.uk/epps/viewInfo.do?sec=newItems&entryId=6769181",
+    "source": "eTendersNI news"
+  },
+  {
+    "id": "etni-auto-6dc14b40bc7b64524e6a",
+    "title": "08 Oct Newry Mourne and Down District Council CA18529 - RFQ2026/39 - Supply and Installation of steel post and wire Fencing PEACEPLUS PEAT+",
+    "description": "Published procurement notice. Closing date not independently verified; check the source before bidding.",
+    "category": "tender",
+    "area": "Newry, Mourne and Down",
+    "buyer": "Newry, Mourne and Down District Council",
+    "published": "2026-10-08T00:00:00+00:00",
+    "deadline": null,
+    "url": "https://etendersni.gov.uk/epps/viewInfo.do?sec=newItems&entryId=6775251",
+    "source": "eTendersNI news"
+  },
+  {
+    "id": "etni-auto-f24feb5bfdbe4af79880",
+    "title": "09 Oct Defence Infrastructure Organisation (DIO) - The Supply of Electricity to MOD sites in Northern Ireland",
+    "description": "Published procurement notice. Closing date not independently verified; check the source before bidding.",
+    "category": "tender",
+    "area": "Northern Ireland-wide",
+    "buyer": "",
+    "published": "2026-10-09T00:00:00+00:00",
+    "deadline": null,
+    "url": "https://etendersni.gov.uk/epps/viewInfo.do?sec=newItems&entryId=6778683",
+    "source": "eTendersNI news"
+  },
+  {
+    "id": "etni-auto-cf740ac20e4887e549c2",
+    "title": "13 Oct Newry Mourne and Down District Council CA18552 RFQ 2026/40 - NMANDD PEACEPLUS Thriving Together - Minority Community Support Programme - Journeys and Belonging",
+    "description": "Published procurement notice. Closing date not independently verified; check the source before bidding.",
+    "category": "tender",
+    "area": "Newry, Mourne and Down",
+    "buyer": "Newry, Mourne and Down District Council",
+    "published": "2026-10-13T00:00:00+00:00",
+    "deadline": null,
+    "url": "https://etendersni.gov.uk/epps/viewInfo.do?sec=newItems&entryId=6784459",
+    "source": "eTendersNI news"
+  },
+  {
     "id": "etni-niwater-sludge-20260827",
     "title": "F006 – Supply, Maintenance and Repair of Sludge Management Equipment",
     "area": "Northern Ireland-wide",
@@ -297,53 +345,5 @@
     "url": "https://www.find-tender.service.gov.uk/Notice/088535-2026",
     "ocid": "ocds-h6vhtk-03fa93",
     "source": "Find a Tender"
-  },
-  {
-    "id": "etni-auto-cf740ac20e4887e549c2",
-    "title": "13 Oct Newry Mourne and Down District Council CA18552 RFQ 2026/40 - NMANDD PEACEPLUS Thriving Together - Minority Community Support Programme - Journeys and Belonging",
-    "description": "Published procurement notice. Closing date not independently verified; check the source before bidding.",
-    "category": "tender",
-    "area": "Newry, Mourne and Down",
-    "buyer": "Newry, Mourne and Down District Council",
-    "published": "2026-10-13T00:00:00+00:00",
-    "deadline": null,
-    "url": "https://etendersni.gov.uk/epps/viewInfo.do?sec=newItems&entryId=6784459",
-    "source": "eTendersNI news"
-  },
-  {
-    "id": "etni-auto-f24feb5bfdbe4af79880",
-    "title": "09 Oct Defence Infrastructure Organisation (DIO) - The Supply of Electricity to MOD sites in Northern Ireland",
-    "description": "Published procurement notice. Closing date not independently verified; check the source before bidding.",
-    "category": "tender",
-    "area": "Northern Ireland-wide",
-    "buyer": "",
-    "published": "2026-10-09T00:00:00+00:00",
-    "deadline": null,
-    "url": "https://etendersni.gov.uk/epps/viewInfo.do?sec=newItems&entryId=6778683",
-    "source": "eTendersNI news"
-  },
-  {
-    "id": "etni-auto-6dc14b40bc7b64524e6a",
-    "title": "08 Oct Newry Mourne and Down District Council CA18529 - RFQ2026/39 - Supply and Installation of steel post and wire Fencing PEACEPLUS PEAT+",
-    "description": "Published procurement notice. Closing date not independently verified; check the source before bidding.",
-    "category": "tender",
-    "area": "Newry, Mourne and Down",
-    "buyer": "Newry, Mourne and Down District Council",
-    "published": "2026-10-08T00:00:00+00:00",
-    "deadline": null,
-    "url": "https://etendersni.gov.uk/epps/viewInfo.do?sec=newItems&entryId=6775251",
-    "source": "eTendersNI news"
-  },
-  {
-    "id": "etni-auto-18995e6d8129c6e5623d",
-    "title": "06 Oct National Trust-NI- Skernaghan Point – Woodland Creation",
-    "description": "Published procurement notice. Closing date not independently verified; check the source before bidding.",
-    "category": "tender",
-    "area": "Northern Ireland-wide",
-    "buyer": "",
-    "published": "2026-10-06T00:00:00+00:00",
-    "deadline": null,
-    "url": "https://etendersni.gov.uk/epps/viewInfo.do?sec=newItems&entryId=6769181",
-    "source": "eTendersNI news"
   }
 ]
