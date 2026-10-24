@@ -1,0 +1,134 @@
+[
+  {
+    "title": "Campbell Civils — subcontractor enquiries",
+    "type": "subcontractor",
+    "area": "County Tyrone",
+    "address": "22 Derryvaren Road, Coalisland, BT71 4QP",
+    "postcode": "BT71 4QP",
+    "description": "Civils, utilities, drainage and groundworks. Supplier enquiry; confirm current packages.",
+    "url": "https://www.campbellcivils.com/contact/",
+    "status": "Supplier enquiry",
+    "buyer": "Campbell Civils"
+  },
+  {
+    "title": "CFM — groundworks subcontractor partners",
+    "type": "subcontractor",
+    "area": "County Antrim",
+    "address": "37 Mallusk Road, Newtownabbey, BT36 4PP (regional office)",
+    "postcode": "BT36 4PP",
+    "description": "Groundworks subcontractor partner enquiries. Regional office shown, not confirmed head office.",
+    "url": "https://cfm-ni.com/contact",
+    "status": "Supplier enquiry",
+    "buyer": "CFM"
+  },
+  {
+    "title": "Woodvale Construction — supply chain",
+    "type": "subcontractor",
+    "area": "County Tyrone",
+    "address": "59 Crevenagh Road, Omagh, BT79 0EX",
+    "postcode": "BT79 0EX",
+    "description": "Main contractor supply-chain enquiries; confirm active packages.",
+    "url": "https://woodvaleconstruction.co.uk/",
+    "status": "Supplier enquiry",
+    "buyer": "Woodvale Construction"
+  },
+  {
+    "title": "Bradley & Company — civil engineering supply chain",
+    "type": "subcontractor",
+    "area": "Derry",
+    "address": "40 Tirkeeran Road, Garvagh, BT51 5AX",
+    "postcode": "BT51 5AX",
+    "description": "Civils, utilities, fibre and haulage. Contact contractor to confirm subcontracting demand.",
+    "url": "https://bradleyandcompany.co.uk/",
+    "status": "Potential contractor",
+    "buyer": "Bradley & Company"
+  },
+  {
+    "title": "Turkington Construction — supply chain",
+    "type": "subcontractor",
+    "area": "County Armagh",
+    "address": "James Park, Mahon Road, Portadown, BT62 3EH",
+    "postcode": "BT62 3EH",
+    "description": "Construction supply-chain enquiries; office address from company profile, confirm current packages.",
+    "url": "https://turkington-construction.com/",
+    "status": "Supplier enquiry",
+    "buyer": "Turkington Construction"
+  },
+  {
+    "title": "Quinn Piling — contractor enquiry",
+    "type": "subcontractor",
+    "area": "County Down",
+    "address": "Down Business Park, 46 Belfast Road, Downpatrick, BT30 9UP",
+    "postcode": "BT30 9UP",
+    "description": "Ground engineering and piling contractor; potential enabling works and plant support. No live subcontract package confirmed.",
+    "url": "https://www.quinnpiling.com/",
+    "status": "Potential contractor",
+    "buyer": "Quinn Piling"
+  },
+  {
+    "title": "Gibson Bros — contractor enquiry",
+    "type": "subcontractor",
+    "area": "County Down",
+    "address": "1 Kilmacrew Road, Banbridge, BT32 4ES",
+    "postcode": "BT32 4ES",
+    "description": "Roads and civils contractor; potential haulage, earthworks and reinstatement. No live subcontract package confirmed.",
+    "url": "https://www.gibsonbros.co.uk/",
+    "status": "Potential contractor",
+    "buyer": "Gibson Bros"
+  },
+  {
+    "title": "Cole Groundworks — contractor enquiry",
+    "type": "subcontractor",
+    "area": "County Down",
+    "address": "135 Kilbroney Road, Rostrevor, Newry, BT34 3BW",
+    "postcode": "BT34 3BW",
+    "description": "Groundworks and civil engineering contractor; tender and pricing enquiries. No live subcontract package confirmed.",
+    "url": "https://colegwc.co.uk/contact/",
+    "status": "Potential contractor",
+    "buyer": "Cole Groundworks"
+  },
+  {
+    "title": "McGurran Civils — contractor enquiry",
+    "type": "subcontractor",
+    "area": "County Fermanagh",
+    "address": "1 Knockmore Road, Drumary, Derrygonnelly, BT93 6GA",
+    "postcode": "BT93 6GA",
+    "description": "Company contact page has a dedicated subcontractor enquiry form. No live subcontract package confirmed.",
+    "url": "https://mcgurrangroup.com/contact/",
+    "status": "Potential contractor",
+    "buyer": "McGurran Civils"
+  },
+  {
+    "title": "O'Neill of Clonoe — contractor enquiry",
+    "type": "subcontractor",
+    "area": "County Tyrone",
+    "address": "80 Moor Road, Coalisland, Dungannon, BT71 4QD",
+    "postcode": "BT71 4QD",
+    "description": "Building and civil engineering; potential groundworks and external works. No live subcontract package confirmed.",
+    "url": "https://www.oneillofclonoe.com/",
+    "status": "Potential contractor",
+    "buyer": "O'Neill of Clonoe"
+  },
+  {
+    "title": "Breedon Ireland — subcontractor enquiry",
+    "type": "subcontractor",
+    "area": "County Antrim",
+    "address": "Northern Regional Office, 5 Blackwater Road, Mallusk, Newtownabbey, BT36 4TZ",
+    "postcode": "BT36 4TZ",
+    "buyer": "Breedon Ireland",
+    "url": "https://www.breedongroup.com/ie/contact-us",
+    "status": "Potential contractor",
+    "description": "Surfacing, pavement construction, maintenance and civils. NI regional office, not global headquarters. Enquire about subcontract packages; none confirmed."
+  },
+  {
+    "title": "John McQuillan Contracts — subcontractor enquiry",
+    "type": "subcontractor",
+    "area": "County Antrim",
+    "address": "Head Office, 11 Ballinderry Road, Lisburn, BT28 2SA",
+    "postcode": "BT28 2SA",
+    "buyer": "John McQuillan Contracts",
+    "url": "https://mcquillancompanies.com/contact/",
+    "status": "Potential contractor",
+    "description": "Road surfacing, civils, demolition and environmental services. Contact contracts@mcqcos.com / 028 9266 8831. No current subcontract package confirmed."
+  }
+]
