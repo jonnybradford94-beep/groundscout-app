@@ -15,15 +15,20 @@ jobs:
           python-version: '3.12'
       - name: Install eTendersNI parser
         run: python -m pip install beautifulsoup4
+      - name: Collect Belfast council notices
+        run: python scripts/update_belfast.py
+        continue-on-error: true
       - name: Collect Find a Tender notices
         run: python scripts/update_opportunities.py
       - name: Collect eTendersNI and NMD Council notices
         run: python scripts/update_etendersni.py
       - name: Commit updated opportunities
+        if: ${{ !cancelled() }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/opportunities.json
+          if [ -f data/belfast.json ]; then git add data/belfast.json; fi
           if ! git diff --cached --quiet; then
             git commit -m "Update GroundScout tenders"
             git push

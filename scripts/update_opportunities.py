@@ -78,6 +78,9 @@ def extract(release):
         "Belfast": r"belfast city council",
     }
     area = next((name for name, pattern in council_names.items() if re.search(pattern, buyer, re.I)), "Northern Ireland-wide")
+    # A title or delivery location is location evidence; a buyer's postal address alone is not.
+    if area == "Northern Ireland-wide" and re.search(r"\bbelfast\b", title + " " + locations, re.I):
+        area = "Belfast"
     return dict(id=notice,title=title,description=as_text(desc)[:1800],category="award" if is_award else "tender",area=area,buyer=buyer,published=release.get("date"),deadline=end.isoformat() if end else None,url="https://www.find-tender.service.gov.uk/Notice/"+notice,source="Find a Tender",ocid=release.get("ocid",""))
 
 def main():
