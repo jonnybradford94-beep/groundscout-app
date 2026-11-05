@@ -26,6 +26,18 @@
     "source": "eTendersNI news"
   },
   {
+    "id": "etni-auto-009dfe3149553be176ff",
+    "title": "03 Nov Newry Mourne and Down District Council - CA18634 RFQ 2026/46 - NMANDD PEACEPLUS Thriving Together – Celebrating Cultures and Diversity - 3.2 Creative Language Exchange",
+    "description": "Published procurement notice. Closing date not independently verified; check the source before bidding.",
+    "category": "tender",
+    "area": "Newry, Mourne and Down",
+    "buyer": "Newry, Mourne and Down District Council",
+    "published": "2026-11-03T00:00:00+00:00",
+    "deadline": null,
+    "url": "https://etendersni.gov.uk/epps/viewInfo.do?sec=newItems&entryId=6830940",
+    "source": "eTendersNI news"
+  },
+  {
     "id": "etni-auto-18995e6d8129c6e5623d",
     "title": "06 Oct National Trust-NI- Skernaghan Point – Woodland Creation",
     "description": "Published procurement notice. Closing date not independently verified; check the source before bidding.",
@@ -357,17 +369,5 @@
     "url": "https://www.find-tender.service.gov.uk/Notice/088535-2026",
     "ocid": "ocds-h6vhtk-03fa93",
     "source": "Find a Tender"
-  },
-  {
-    "id": "etni-auto-009dfe3149553be176ff",
-    "title": "03 Nov Newry Mourne and Down District Council - CA18634 RFQ 2026/46 - NMANDD PEACEPLUS Thriving Together – Celebrating Cultures and Diversity - 3.2 Creative Language Exchange",
-    "description": "Published procurement notice. Closing date not independently verified; check the source before bidding.",
-    "category": "tender",
-    "area": "Newry, Mourne and Down",
-    "buyer": "Newry, Mourne and Down District Council",
-    "published": "2026-11-03T00:00:00+00:00",
-    "deadline": null,
-    "url": "https://etendersni.gov.uk/epps/viewInfo.do?sec=newItems&entryId=6830940",
-    "source": "eTendersNI news"
   }
 ]
