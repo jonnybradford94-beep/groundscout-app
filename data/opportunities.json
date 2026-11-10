@@ -369,5 +369,29 @@
     "url": "https://www.find-tender.service.gov.uk/Notice/088535-2026",
     "ocid": "ocds-h6vhtk-03fa93",
     "source": "Find a Tender"
+  },
+  {
+    "id": "etni-auto-958f1b23921596a082dd",
+    "title": "10 Nov Cavan Co. Council - Design and Facilitation of the “Landscape a Manuscript” Programme, Exploring Migration, Memory and Shared History for the PEACEPLUS programme",
+    "description": "Published procurement notice. Closing date not independently verified; check the source before bidding.",
+    "category": "tender",
+    "area": "Northern Ireland-wide",
+    "buyer": "",
+    "published": "2026-11-10T00:00:00+00:00",
+    "deadline": null,
+    "url": "https://etendersni.gov.uk/epps/viewInfo.do?sec=newItems&entryId=6844993",
+    "source": "eTendersNI news"
+  },
+  {
+    "id": "etni-auto-6c8d9ae560ca23d6ed70",
+    "title": "10 Nov Newry Mourne and Down District Council RFQ 2026/45 - PEACEPLUS Living History Archiving Project - Castlewellan Historic Demesne",
+    "description": "Published procurement notice. Closing date not independently verified; check the source before bidding.",
+    "category": "tender",
+    "area": "Newry, Mourne and Down",
+    "buyer": "Newry, Mourne and Down District Council",
+    "published": "2026-11-10T00:00:00+00:00",
+    "deadline": null,
+    "url": "https://etendersni.gov.uk/epps/viewInfo.do?sec=newItems&entryId=6843869",
+    "source": "eTendersNI news"
   }
 ]
