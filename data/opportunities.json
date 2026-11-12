@@ -393,5 +393,17 @@
     "url": "https://www.find-tender.service.gov.uk/Notice/088535-2026",
     "ocid": "ocds-h6vhtk-03fa93",
     "source": "Find a Tender"
+  },
+  {
+    "id": "etni-auto-96f6be0c81c6f447c0a3",
+    "title": "12 Nov T65/2026 BRCD Contracts for Innovation Challenge 1 - Newry Mourne and Down District Council",
+    "description": "Published procurement notice. Closing date not independently verified; check the source before bidding.",
+    "category": "tender",
+    "area": "Newry, Mourne and Down",
+    "buyer": "Newry, Mourne and Down District Council",
+    "published": "2026-11-12T00:00:00+00:00",
+    "deadline": null,
+    "url": "https://etendersni.gov.uk/epps/viewInfo.do?sec=newItems&entryId=6847884",
+    "source": "eTendersNI news"
   }
 ]
