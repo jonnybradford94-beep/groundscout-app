@@ -171,6 +171,18 @@
     "source": "eTendersNI / MultiQuote"
   },
   {
+    "id": "etni-auto-bbca948636839605592a",
+    "title": "ITT 70/2026 - Mourne Gullion Landscape Connections Baseline Environmental Surveys Reporting",
+    "description": "Published procurement notice. Closing date not independently verified; check the source before bidding.",
+    "category": "tender",
+    "area": "Newry, Mourne and Down",
+    "buyer": "Newry, Mourne and Down District Council",
+    "published": "2026-11-16T00:00:00+00:00",
+    "deadline": null,
+    "url": "https://etendersni.gov.uk/epps/notices/viewPublishedContractNotice.do?resourceId=6854070&documentId=6854667&noticeType=4&extId=022ea368-53b7-47ad-8687-58d1aa7698b6&lang=en&noticeId=6854231&isNational=false",
+    "source": "eTendersNI"
+  },
+  {
     "id": "etni-housing-responsive-20261001",
     "title": "Measured Term Contract for Responsive Maintenance, Minor Adaptations, Void Property Works and Emergency Works",
     "area": "Northern Ireland-wide",
@@ -407,15 +419,27 @@
     "source": "Find a Tender"
   },
   {
-    "id": "etni-auto-bbca948636839605592a",
-    "title": "ITT 70/2026 - Mourne Gullion Landscape Connections Baseline Environmental Surveys Reporting",
+    "id": "etni-auto-daa74b19df58685a13c4",
+    "title": "17 Nov Newry Mourne and Down District Council. RFQ 2026/48 - PEACEPLUS Roots Relationships Programme - Slieve Gullion DEA",
     "description": "Published procurement notice. Closing date not independently verified; check the source before bidding.",
     "category": "tender",
     "area": "Newry, Mourne and Down",
     "buyer": "Newry, Mourne and Down District Council",
+    "published": "2026-11-17T00:00:00+00:00",
+    "deadline": null,
+    "url": "https://etendersni.gov.uk/epps/viewInfo.do?sec=newItems&entryId=6857694",
+    "source": "eTendersNI news"
+  },
+  {
+    "id": "etni-auto-07ee097df875fdcc9bfe",
+    "title": "16 Nov Sligo County Council - (SAQ) for the provision of services for the design, build, operation, maintenance and performance guarantee of a Groundsource Heat pump System for Sligo Regional Sports Centre",
+    "description": "Published procurement notice. Closing date not independently verified; check the source before bidding.",
+    "category": "tender",
+    "area": "Northern Ireland-wide",
+    "buyer": "",
     "published": "2026-11-16T00:00:00+00:00",
     "deadline": null,
-    "url": "https://etendersni.gov.uk/epps/notices/viewPublishedContractNotice.do?resourceId=6854070&documentId=6854667&noticeType=4&extId=022ea368-53b7-47ad-8687-58d1aa7698b6&lang=en&noticeId=6854231&isNational=false",
-    "source": "eTendersNI"
+    "url": "https://etendersni.gov.uk/epps/viewInfo.do?sec=newItems&entryId=6855259",
+    "source": "eTendersNI news"
   }
 ]
