@@ -122,6 +122,30 @@
     "source": "eTendersNI news"
   },
   {
+    "id": "etni-auto-07ee097df875fdcc9bfe",
+    "title": "16 Nov Sligo County Council - (SAQ) for the provision of services for the design, build, operation, maintenance and performance guarantee of a Groundsource Heat pump System for Sligo Regional Sports Centre",
+    "description": "Published procurement notice. Closing date not independently verified; check the source before bidding.",
+    "category": "tender",
+    "area": "Northern Ireland-wide",
+    "buyer": "",
+    "published": "2026-11-16T00:00:00+00:00",
+    "deadline": null,
+    "url": "https://etendersni.gov.uk/epps/viewInfo.do?sec=newItems&entryId=6855259",
+    "source": "eTendersNI news"
+  },
+  {
+    "id": "etni-auto-daa74b19df58685a13c4",
+    "title": "17 Nov Newry Mourne and Down District Council. RFQ 2026/48 - PEACEPLUS Roots Relationships Programme - Slieve Gullion DEA",
+    "description": "Published procurement notice. Closing date not independently verified; check the source before bidding.",
+    "category": "tender",
+    "area": "Newry, Mourne and Down",
+    "buyer": "Newry, Mourne and Down District Council",
+    "published": "2026-11-17T00:00:00+00:00",
+    "deadline": null,
+    "url": "https://etendersni.gov.uk/epps/viewInfo.do?sec=newItems&entryId=6857694",
+    "source": "eTendersNI news"
+  },
+  {
     "id": "etni-auto-5e44a1f097f54b3ea639",
     "title": "22 Oct Defence Infrastructure Organisation (DIO) - The Supply of Electricity to MOD sites in Northern Ireland",
     "description": "Published procurement notice. Closing date not independently verified; check the source before bidding.",
@@ -318,19 +342,6 @@
     "source": "eTendersNI"
   },
   {
-    "id": "etni-timber-collection-20260821",
-    "title": "TENDER FOR COLLECTION AND PROCESSING OF WASTE TIMBER REF: 2627 TNDR EP 004",
-    "description": "Published NI procurement notice. Tender closing date has not been verified; check the source before bidding.",
-    "category": "tender",
-    "area": "Fermanagh and Omagh",
-    "buyer": "Fermanagh and Omagh District Council",
-    "published": "2026-08-21T12:00:00Z",
-    "deadline": null,
-    "url": "https://etendersni.gov.uk/epps/notices/viewPublishedNotices.do",
-    "source": "eTendersNI",
-    "status": "Deadline unverified"
-  },
-  {
     "id": "etni-winter-gritting-20261008",
     "title": "TENDER FOR WINTER GRITTING AND SNOW CLEARANCE",
     "description": "Published NI procurement notice. Tender closing date has not been verified; check the source before bidding.",
@@ -419,27 +430,27 @@
     "source": "Find a Tender"
   },
   {
-    "id": "etni-auto-daa74b19df58685a13c4",
-    "title": "17 Nov Newry Mourne and Down District Council. RFQ 2026/48 - PEACEPLUS Roots Relationships Programme - Slieve Gullion DEA",
+    "id": "etni-auto-bbb9353f58663cc4c1db",
+    "title": "19 Nov Newry Mourne and Down District Council - CA18709 RFQ 2026/50 - NMANDD PEACEPLUS Thriving Together – Minority Community Integration programme - Capturing Culture, An Ulster-Scots Film Project",
     "description": "Published procurement notice. Closing date not independently verified; check the source before bidding.",
     "category": "tender",
     "area": "Newry, Mourne and Down",
     "buyer": "Newry, Mourne and Down District Council",
-    "published": "2026-11-17T00:00:00+00:00",
+    "published": "2026-11-19T00:00:00+00:00",
     "deadline": null,
-    "url": "https://etendersni.gov.uk/epps/viewInfo.do?sec=newItems&entryId=6857694",
+    "url": "https://etendersni.gov.uk/epps/viewInfo.do?sec=newItems&entryId=6862119",
     "source": "eTendersNI news"
   },
   {
-    "id": "etni-auto-07ee097df875fdcc9bfe",
-    "title": "16 Nov Sligo County Council - (SAQ) for the provision of services for the design, build, operation, maintenance and performance guarantee of a Groundsource Heat pump System for Sligo Regional Sports Centre",
+    "id": "etni-auto-3f21631f5f3b634d6b9b",
+    "title": "19 Nov Newry Mourne and Down District Council - CA18707 RFQ 2026/49 - NMANDD PEACEPLUS Thriving Together – Celebrating Cultures and Diversity - 3.5 Women’s Festival",
     "description": "Published procurement notice. Closing date not independently verified; check the source before bidding.",
     "category": "tender",
-    "area": "Northern Ireland-wide",
-    "buyer": "",
-    "published": "2026-11-16T00:00:00+00:00",
+    "area": "Newry, Mourne and Down",
+    "buyer": "Newry, Mourne and Down District Council",
+    "published": "2026-11-19T00:00:00+00:00",
     "deadline": null,
-    "url": "https://etendersni.gov.uk/epps/viewInfo.do?sec=newItems&entryId=6855259",
+    "url": "https://etendersni.gov.uk/epps/viewInfo.do?sec=newItems&entryId=6862104",
     "source": "eTendersNI news"
   }
 ]
