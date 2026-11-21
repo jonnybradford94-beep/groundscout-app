@@ -14,6 +14,19 @@
     "ocid": "ocds-h6vhtk-0783b4"
   },
   {
+    "id": "110065-2026",
+    "title": "Provision of Insurance and related Services to  Newry Mourne & Down District Council (via Insurance Services 3 GCA Framework RM6138 via DPS)",
+    "description": "Provision of Insurance and related Services to \nNewry Mourne & Down District Council (via Insurance\nServices 3 GCA RM6138 via DPS). At time of\ntendering all suppliers must be on the RM6138 DPS.",
+    "category": "tender",
+    "area": "Newry, Mourne and Down",
+    "buyer": "Newry Mourne & Down District Council",
+    "published": "2026-11-20T11:11:39Z",
+    "deadline": "2027-01-08T15:00:00+00:00",
+    "url": "https://www.find-tender.service.gov.uk/Notice/110065-2026",
+    "source": "Find a Tender",
+    "ocid": "ocds-h6vhtk-07c02d"
+  },
+  {
     "id": "etni-auto-91773c3cfead6064af76",
     "title": "02 Nov BirdWatch Ireland - PeacePlus Nature P00419 - Magheragallon Predator Fence Removal and Installation",
     "description": "Published procurement notice. Closing date not independently verified; check the source before bidding.",
@@ -143,6 +156,30 @@
     "published": "2026-11-17T00:00:00+00:00",
     "deadline": null,
     "url": "https://etendersni.gov.uk/epps/viewInfo.do?sec=newItems&entryId=6857694",
+    "source": "eTendersNI news"
+  },
+  {
+    "id": "etni-auto-3f21631f5f3b634d6b9b",
+    "title": "19 Nov Newry Mourne and Down District Council - CA18707 RFQ 2026/49 - NMANDD PEACEPLUS Thriving Together – Celebrating Cultures and Diversity - 3.5 Women’s Festival",
+    "description": "Published procurement notice. Closing date not independently verified; check the source before bidding.",
+    "category": "tender",
+    "area": "Newry, Mourne and Down",
+    "buyer": "Newry, Mourne and Down District Council",
+    "published": "2026-11-19T00:00:00+00:00",
+    "deadline": null,
+    "url": "https://etendersni.gov.uk/epps/viewInfo.do?sec=newItems&entryId=6862104",
+    "source": "eTendersNI news"
+  },
+  {
+    "id": "etni-auto-bbb9353f58663cc4c1db",
+    "title": "19 Nov Newry Mourne and Down District Council - CA18709 RFQ 2026/50 - NMANDD PEACEPLUS Thriving Together – Minority Community Integration programme - Capturing Culture, An Ulster-Scots Film Project",
+    "description": "Published procurement notice. Closing date not independently verified; check the source before bidding.",
+    "category": "tender",
+    "area": "Newry, Mourne and Down",
+    "buyer": "Newry, Mourne and Down District Council",
+    "published": "2026-11-19T00:00:00+00:00",
+    "deadline": null,
+    "url": "https://etendersni.gov.uk/epps/viewInfo.do?sec=newItems&entryId=6862119",
     "source": "eTendersNI news"
   },
   {
@@ -428,29 +465,5 @@
     "url": "https://www.find-tender.service.gov.uk/Notice/088535-2026",
     "ocid": "ocds-h6vhtk-03fa93",
     "source": "Find a Tender"
-  },
-  {
-    "id": "etni-auto-bbb9353f58663cc4c1db",
-    "title": "19 Nov Newry Mourne and Down District Council - CA18709 RFQ 2026/50 - NMANDD PEACEPLUS Thriving Together – Minority Community Integration programme - Capturing Culture, An Ulster-Scots Film Project",
-    "description": "Published procurement notice. Closing date not independently verified; check the source before bidding.",
-    "category": "tender",
-    "area": "Newry, Mourne and Down",
-    "buyer": "Newry, Mourne and Down District Council",
-    "published": "2026-11-19T00:00:00+00:00",
-    "deadline": null,
-    "url": "https://etendersni.gov.uk/epps/viewInfo.do?sec=newItems&entryId=6862119",
-    "source": "eTendersNI news"
-  },
-  {
-    "id": "etni-auto-3f21631f5f3b634d6b9b",
-    "title": "19 Nov Newry Mourne and Down District Council - CA18707 RFQ 2026/49 - NMANDD PEACEPLUS Thriving Together – Celebrating Cultures and Diversity - 3.5 Women’s Festival",
-    "description": "Published procurement notice. Closing date not independently verified; check the source before bidding.",
-    "category": "tender",
-    "area": "Newry, Mourne and Down",
-    "buyer": "Newry, Mourne and Down District Council",
-    "published": "2026-11-19T00:00:00+00:00",
-    "deadline": null,
-    "url": "https://etendersni.gov.uk/epps/viewInfo.do?sec=newItems&entryId=6862104",
-    "source": "eTendersNI news"
   }
 ]
