@@ -465,5 +465,17 @@
     "url": "https://www.find-tender.service.gov.uk/Notice/088535-2026",
     "ocid": "ocds-h6vhtk-03fa93",
     "source": "Find a Tender"
+  },
+  {
+    "id": "etni-auto-d64b57291636ee558c91",
+    "title": "ITT 70/2026 - Mourne Gullion Landscape Connections Baseline Environmental Surveys Reporting",
+    "description": "Published procurement notice. Closing date not independently verified; check the source before bidding.",
+    "category": "tender",
+    "area": "Newry, Mourne and Down",
+    "buyer": "Newry, Mourne and Down District Council",
+    "published": "2026-11-24T00:00:00+00:00",
+    "deadline": null,
+    "url": "https://etendersni.gov.uk/epps/notices/viewPublishedContractNotice.do?resourceId=6854070&documentId=6870463&noticeType=4&extId=5c3b2269-3742-4068-9358-e25c2800389c&lang=en&noticeId=6870439&isNational=false",
+    "source": "eTendersNI"
   }
 ]
