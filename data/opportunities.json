@@ -195,18 +195,6 @@
     "source": "eTendersNI news"
   },
   {
-    "id": "etni-niwater-sludge-20260827",
-    "title": "F006 – Supply, Maintenance and Repair of Sludge Management Equipment",
-    "area": "Northern Ireland-wide",
-    "buyer": "Northern Ireland Water",
-    "published": "2026-08-27T12:00:00Z",
-    "category": "tender",
-    "deadline": null,
-    "description": "Published procurement notice. Deadline not independently verified; check portal before bidding.",
-    "url": "https://etendersni.gov.uk/epps/notices/viewPublishedNotices.do?authorityId=2992&orgGroupId=3013",
-    "source": "eTendersNI"
-  },
-  {
     "id": "etni-habitat-truxor-20261007",
     "title": "ID 6639115 - DAERA - NIEA and DfI Rivers - Habitat Improvement Works using Truxor Amphibious Vehicle",
     "description": "Published NI procurement notice. Tender closing date has not been verified; check the source before bidding.",
@@ -241,6 +229,18 @@
     "published": "2026-11-16T00:00:00+00:00",
     "deadline": null,
     "url": "https://etendersni.gov.uk/epps/notices/viewPublishedContractNotice.do?resourceId=6854070&documentId=6854667&noticeType=4&extId=022ea368-53b7-47ad-8687-58d1aa7698b6&lang=en&noticeId=6854231&isNational=false",
+    "source": "eTendersNI"
+  },
+  {
+    "id": "etni-auto-d64b57291636ee558c91",
+    "title": "ITT 70/2026 - Mourne Gullion Landscape Connections Baseline Environmental Surveys Reporting",
+    "description": "Published procurement notice. Closing date not independently verified; check the source before bidding.",
+    "category": "tender",
+    "area": "Newry, Mourne and Down",
+    "buyer": "Newry, Mourne and Down District Council",
+    "published": "2026-11-24T00:00:00+00:00",
+    "deadline": null,
+    "url": "https://etendersni.gov.uk/epps/notices/viewPublishedContractNotice.do?resourceId=6854070&documentId=6870463&noticeType=4&extId=5c3b2269-3742-4068-9358-e25c2800389c&lang=en&noticeId=6870439&isNational=false",
     "source": "eTendersNI"
   },
   {
@@ -467,15 +467,27 @@
     "source": "Find a Tender"
   },
   {
-    "id": "etni-auto-d64b57291636ee558c91",
-    "title": "ITT 70/2026 - Mourne Gullion Landscape Connections Baseline Environmental Surveys Reporting",
+    "id": "etni-auto-3437380d8616ac86559f",
+    "title": "25 Nov Newry Mourne and Down District Council. ITT 73/2026 - PEACEPLUS Childrens Language Programme",
     "description": "Published procurement notice. Closing date not independently verified; check the source before bidding.",
     "category": "tender",
     "area": "Newry, Mourne and Down",
     "buyer": "Newry, Mourne and Down District Council",
-    "published": "2026-11-24T00:00:00+00:00",
+    "published": "2026-11-25T00:00:00+00:00",
     "deadline": null,
-    "url": "https://etendersni.gov.uk/epps/notices/viewPublishedContractNotice.do?resourceId=6854070&documentId=6870463&noticeType=4&extId=5c3b2269-3742-4068-9358-e25c2800389c&lang=en&noticeId=6870439&isNational=false",
-    "source": "eTendersNI"
+    "url": "https://etendersni.gov.uk/epps/viewInfo.do?sec=newItems&entryId=6873239",
+    "source": "eTendersNI news"
+  },
+  {
+    "id": "etni-auto-9e2b2e605eab827842e6",
+    "title": "25 Nov Newry Mourne and Down District Council CA18724 RFQ 2026/51 – Retender - PEACEPLUS “Thriving Together” - Shared History and Culture Program - Hanna's Close",
+    "description": "Published procurement notice. Closing date not independently verified; check the source before bidding.",
+    "category": "tender",
+    "area": "Newry, Mourne and Down",
+    "buyer": "Newry, Mourne and Down District Council",
+    "published": "2026-11-25T00:00:00+00:00",
+    "deadline": null,
+    "url": "https://etendersni.gov.uk/epps/viewInfo.do?sec=newItems&entryId=6873238",
+    "source": "eTendersNI news"
   }
 ]
